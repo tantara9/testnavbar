@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:testtab/component/coupon/slide.dart';
 
 class Coupon extends StatelessWidget {
   const Coupon({
@@ -8,12 +9,9 @@ class Coupon extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.only(top: 5),
-      height: 100,
-      color: Colors.green,
-      child: Center(
-        child: Text("Coupon"),
-      ),
+      height: 130,
+      color: Colors.white,
+      child: SliderImageCoupong(),
     );
   }
 }

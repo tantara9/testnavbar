@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:testtab/testcard.dart';
 
 class Bottombarhome2 extends StatefulWidget {
   Bottombarhome2({Key key}) : super(key: key);
@@ -10,6 +11,6 @@ class Bottombarhome2 extends StatefulWidget {
 class _Bottombarhome2State extends State<Bottombarhome2> {
   @override
   Widget build(BuildContext context) {
-    return Text("Home2");
+    return Cardtest();
   }
 }
